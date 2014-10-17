@@ -8,7 +8,7 @@
 
 <?php
 
-			// óñòàíîâèòü ñîåäèíåíèå ñ ÁÄ
+			// ÑƒÑÑ‚Ð°Ð½Ð¾Ð²Ð¸Ñ‚ÑŒ ÑÐ¾ÐµÐ´Ð¸Ð½ÐµÐ½Ð¸Ðµ Ñ Ð‘Ð”
 			/*$name = iconv('UTF-8','Windows-1251', $_POST['us_name']);
 			$pass = iconv('UTF-8','Windows-1251', $_POST['us_pass']);
 			$pass = $name.$pass;*/
