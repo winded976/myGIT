@@ -9,7 +9,7 @@ function getDay($date){
 	$year_offset = intdiv($arr_date[0], 5) - intdiv(intdiv($arr_date[0], 5), 7) * 7;
 	$first_day = 2 + $year_offset;
 	$d_even = 0;
-	if(intdiv($arr_date[0], 5) == $arr_date[0]/5 and $arr_date[1] >= 2 and $arr_date[2] == 22) $d_even = 1;
+	if(intdiv($arr_date[0], 5) == $arr_date[0]/5 and (($arr_date[1] == 2 and $arr_date[2] == 22) or $arr_date[1] > 2)) $d_even = 1;
 	$month_offset = (($arr_date[1] - intdiv($arr_date[1], 2)) * 22 + intdiv($arr_date[1], 2) * 21 + $d_even) 
 					- intdiv((($arr_date[1] - intdiv($arr_date[1], 2)) * 22 + intdiv($arr_date[1], 2) * 21 + $d_even), 7) * 7;
 	$day = $first_day + $month_offset - 7;
