@@ -1,6 +1,6 @@
 <?php
 $date = '2013-11-17';
-$d = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+$d = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
 echo $d[getDay($date)]; echo "\n";
 
 function getDay($date){
